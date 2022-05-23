@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fafafa;
+  background: url('https://picstatio.com/large/b7439e/stranger-things-netflix-2021.jpg');
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,6 @@ body {
   letter-spacing: 1px;
   box-shadow: 0 3px rgba(249, 202, 36, 0.5);
   z-index: 100;
-
 }
 
 .magic:focus {
@@ -50,7 +49,6 @@ body {
   justify-content: space-around;
   position: relative;
   transition: 0.4s ease;
-  
 }
 
 .boxes.big {
@@ -59,11 +57,11 @@ body {
 }
 
 .boxes.big .box {
-    transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
 }
 
 .box {
-  background-image: url('https://media4.giphy.com/media/YOMymByBQsduFBBgAq/giphy.gif?cid=ecf05e4780brdwccuzfbsoyt5vngf408krp5xn33xeg25qsj&rid=giphy.gif&ct=g');
+  background-image: url("https://media4.giphy.com/media/YOMymByBQsduFBBgAq/giphy.gif?cid=ecf05e4780brdwccuzfbsoyt5vngf408krp5xn33xeg25qsj&rid=giphy.gif&ct=g");
   background-repeat: no-repeat;
   background-size: 500px 500px;
   position: relative;
@@ -73,23 +71,23 @@ body {
 }
 
 .box::after {
-    content: '';
-    background-color: #ff0000;
-    position: absolute;
-    top: 8px;
-    right: -15px;
-    height: 100%;
-    width: 15px;
-    transform: skewY(45deg);
+  content: "";
+  background-color: #ff0000;
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  height: 100%;
+  width: 15px;
+  transform: skewY(45deg);
 }
 
 .box::before {
-    content: '';
-    background-color: #d00000;
-    position: absolute;
-    bottom: -15px;
-    left: 8px;
-    height: 15%;
-    width: 100%;
-    transform: skewX(45deg);
+  content: "";
+  background-color: #d00000;
+  position: absolute;
+  bottom: -19px;
+  left: 8px;
+  height: 15%;
+  width: 100%;
+  transform: skewX(45deg);
 }
